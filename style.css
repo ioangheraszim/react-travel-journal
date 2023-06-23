@@ -13,11 +13,9 @@ body, .navbar {
 
 .container {
   max-width: 790px;
-  outline: 1px solid green;
 }
 
 .navbar {
-  display: flex;
   height: 60px;
   background: #FF5344;
   color: #FFF;
@@ -80,8 +78,4 @@ body, .navbar {
 }
 .card .right-side .card-description {
   font-size: 1rem;
-}
-
-img {
-  width: 100%;
 }/*# sourceMappingURL=style.css.map */

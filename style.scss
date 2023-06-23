@@ -7,19 +7,16 @@
 body, .navbar {
     display: flex;
     justify-content: center;
-    align-items: center;
-  
+    align-items: center;  
     font-family: 'Open Sans', sans-serif;
 }
 
 
 .container {
     max-width: 790px;
-    outline: 1px solid green;
 }
 
 .navbar {
-    display: flex;
     height: 60px;
     background: #FF5344;
     color: #FFF;
@@ -96,10 +93,4 @@ body, .navbar {
         
     }
 
-  }
-  
-  
-
-img {
-    width: 100%;
 }
