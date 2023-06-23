@@ -1,11 +1,13 @@
 import React from "react"
-
+import Navbar from "./components/Navbar"
+import Components from "./components/Components"
 function App() {
 
   return (
-    <div>
-      
-    </div>
+    <main className="container">
+     <Navbar />
+     <Components />
+    </main>
   )
 }
 

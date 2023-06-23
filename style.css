@@ -2,4 +2,86 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body, .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 790px;
+  outline: 1px solid green;
+}
+
+.navbar {
+  display: flex;
+  height: 60px;
+  background: #FF5344;
+  color: #FFF;
+  position: sticky;
+  top: 0px;
+}
+.navbar .navbar-title {
+  font-size: 1rem;
+}
+.navbar .navbar-icon {
+  width: 2rem;
+  margin-right: 1rem;
+}
+
+.card {
+  display: flex;
+  background-color: #F2ECEC;
+  box-shadow: -9px 13px 34px -17px rgba(0, 0, 0, 0.75);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.card .left-side {
+  padding: 1rem;
+  width: 30%;
+}
+.card .left-side .card-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card .right-side {
+  width: 70%;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.card .right-side .right-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.card .right-side .right-info .placeholder-img {
+  width: 5%;
+}
+.card .right-side .right-info .location-name {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-right: 1rem;
+}
+.card .right-side .right-info .location-link {
+  color: grey;
+}
+.card .right-side .card-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.card .right-side .card-date {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.card .right-side .card-description {
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
